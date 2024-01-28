@@ -1,0 +1,281 @@
+.main-section {
+  padding: 0px 12px;
+  position: relative;
+}
+.main-section .main-section-inner {
+  display: flex;
+  align-items: flex-start;
+}
+.main-section .main-section-inner .intro-section {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.main-section .main-section-inner .intro-section .content {
+  padding-top: 70px;
+  max-width: 745px;
+  width: 100%;
+}
+.main-section .main-section-inner .intro-image {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.main-section .content .inner {
+  margin-bottom: 142px;
+}
+.main-section .content .inner span {
+  color: #3c3e41;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: block;
+  padding-bottom: 20px;
+}
+.main-section .content .inner h1 {
+  color: #1e2125;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  margin-bottom: 22px;
+  height: 150px;
+}
+.main-section .content .inner h1 span {
+  color: #ff014f;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 75px;
+  display: inline-block;
+  padding: 0px;
+  text-transform: capitalize;
+}
+.main-section .content .inner h1 span:first-child {
+  font-size: 60px;
+}
+.main-section .content .inner .description p {
+  font-size: 16px;
+  line-height: 30px;
+  padding-right: 16%;
+  opacity: 0.9;
+  color: #3c3e41;
+  margin: 0px;
+  padding-bottom: 119px;
+  padding-right: 60px;
+}
+.main-section .thumbnail {
+  position: relative;
+  z-index: 2;
+}
+.main-section .thumbnail::before {
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: calc(100% - 130px);
+  content: "";
+  bottom: 0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  min-width: 508px;
+}
+.main-section .thumbnail .inner {
+  text-align: center;
+}
+.main-section .thumbnail .inner img {
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  height: 697px;
+  min-width: 508px;
+  width: 100%;
+}
+.main-section::after {
+  position: absolute;
+  max-width: 1270px;
+  height: 1px;
+  background: rgba(135, 142, 153, 0.1803921569);
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .main-section {
+    margin-top: 50px;
+    max-width: 1320px;
+    width: 100%;
+  }
+  .main-section .main-section-inner .intro-section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .main-section .main-section-inner .content {
+    padding-top: 0px !important;
+  }
+  .main-section .main-section-inner .content .inner {
+    margin-bottom: 80px;
+  }
+  .main-section .main-section-inner .content .inner h1 {
+    font-size: 32px;
+    line-height: normal;
+    height: auto;
+  }
+  .main-section .main-section-inner .content .inner h1 span {
+    font-size: 23px;
+    line-height: normal;
+  }
+  .main-section .main-section-inner .content .inner h1 span:first-child {
+    font-size: 32px;
+  }
+  .main-section .main-section-inner .content .inner .description {
+    padding-bottom: 0px 0px 40px 0px;
+  }
+  .main-section .main-section-inner .content .inner .description p {
+    padding-bottom: 40px;
+    padding-right: 0px;
+  }
+  .main-section .main-section-inner .thumbnail {
+    display: none;
+  }
+}
+@media (max-width: 1280px) {
+  .main-section .content .inner h1 {
+    height: auto;
+  }
+}
+.social-share-inner-left {
+  margin-bottom: 30px;
+}
+.social-share-inner-left span {
+  color: #1e2125;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.social-share-inner-left ul {
+  margin: -10px -12px;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.social-share-inner-left ul li {
+  margin: 10px 12px;
+  font-size: 18px;
+  line-height: normal;
+  color: #878e99;
+  transition: 0.4s;
+}
+.social-share-inner-left ul li:hover {
+  transform: translateY(-3px);
+}
+.social-share-inner-left ul li a {
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  padding: 17px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  position: relative;
+}
+.social-share-inner-left ul li a::before {
+  background: linear-gradient(145deg, #ff014f, #d11414);
+  content: "";
+  position: absolute;
+  transition: 0.4s;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+}
+.social-share-inner-left ul li a svg {
+  transition: 0.4s;
+  stroke-width: 2;
+  position: relative;
+  z-index: 2;
+  width: 20px;
+  color: #3c3e41;
+}
+.social-share-inner-left ul li a:hover {
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+}
+.social-share-inner-left ul li a:hover::before {
+  opacity: 1;
+  z-index: 1;
+}
+.social-share-inner-left ul li a:hover svg {
+  color: #ffffff;
+  fill: #fff;
+}
+
+.social-share-inner-right span {
+  color: #1e2125;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.social-share-inner-right ul {
+  margin: -10px -12px;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.social-share-inner-right ul li {
+  margin: 10px 12px;
+  font-size: 18px;
+  line-height: normal;
+  color: #878e99;
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  position: relative;
+}
+.social-share-inner-right ul li::before {
+  background: linear-gradient(145deg, #ff014f, #d11414);
+  content: "";
+  position: absolute;
+  transition: 0.4s;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+}
+.social-share-inner-right ul li svg {
+  transition: 0.4s;
+  stroke-width: 2;
+  position: relative;
+  z-index: 2;
+  width: 20px;
+  color: #3c3e41;
+}
+.social-share-inner-right ul li:hover {
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+}
+.social-share-inner-right ul li:hover svg {
+  color: #ffffff;
+}/*# sourceMappingURL=introduction.css.map */
