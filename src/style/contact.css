@@ -149,25 +149,35 @@
 .contact-us-wrapper .inner-container .right {
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
-  max-width: 770px;
+  max-width: 728px;
   width: 100%;
   height: 786px;
-  padding: 0px;
+  padding: 30px;
   border-radius: 10px;
+}
+.contact-us-wrapper .inner-container .right form {
+  display: flex;
+  flex-direction: column;
 }
 .contact-us-wrapper .inner-container .right form .label-wrapper {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
-.contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner {
+.contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 702px;
+  width: 100%;
+}
+.contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner-wrapper .label-wrapper-inner {
   max-width: 320px;
   width: 100%;
   margin-bottom: 20px;
 }
-.contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner label {
+.contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner-wrapper .label-wrapper-inner label {
   font-size: 12px;
   color: var(--primary-color);
   font-weight: 500;
@@ -178,7 +188,7 @@
   display: block;
   line-height: 22px;
 }
-.contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner input {
+.contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner-wrapper .label-wrapper-inner input {
   background-color: #fdfefe;
   border: 2px solid #dadada;
   color: var(--primary-color);
@@ -194,11 +204,11 @@
   font-weight: 400;
   line-height: 28px;
 }
-.contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner input:focus {
+.contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner-wrapper .label-wrapper-inner input:focus {
   border: 2px solid #f9004d;
   outline: none;
 }
-.contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner input:focus-visible {
+.contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner-wrapper .label-wrapper-inner input:focus-visible {
   outline: none;
 }
 .contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner-full {
@@ -321,8 +331,7 @@
 
 @media (max-width: 991px) {
   .contact-us-wrapper {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 80px 15px;
   }
   .contact-us-wrapper span {
     font-size: 14px;
@@ -428,19 +437,22 @@
   }
   .contact-us-wrapper .inner-container .right {
     height: auto !important;
-    padding: 0px;
+    padding: 20px;
   }
   .contact-us-wrapper .inner-container .right form .label-wrapper {
     margin-bottom: 20px;
     flex-direction: column;
     align-items: flex-start;
   }
-  .contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner {
+  .contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner-wrapper {
+    flex-direction: column;
+  }
+  .contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner-wrapper .label-wrapper-inner {
     margin-bottom: 15px;
     width: 100%;
     max-width: unset;
   }
-  .contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner input {
+  .contact-us-wrapper .inner-container .right form .label-wrapper .label-wrapper-inner-wrapper .label-wrapper-inner input {
     min-width: 305px;
     width: 100%;
     border-radius: 6px;

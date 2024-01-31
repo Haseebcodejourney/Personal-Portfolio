@@ -66,25 +66,27 @@ const Contact = () => {
 					<div className="right">
 						<form>
 							<div className="label-wrapper">
-								<div className="label-wrapper-inner">
-									<label htmlFor="name">Your Name</label>
-									<input
-										type="text"
-										id="name"
-										name="name"
-										autoComplete="off"
-										required
-									/>
-								</div>
-								<div className="label-wrapper-inner">
-									<label htmlFor="phone">Phone Number</label>
-									<input
-										type="tel"
-										id="phone"
-										name="phone"
-										placeholder=""
-										autoComplete="off"
-									/>
+								<div className='label-wrapper-inner-wrapper'>
+									<div className="label-wrapper-inner">
+										<label htmlFor="name">Your Name</label>
+										<input
+											type="text"
+											id="name"
+											name="name"
+											autoComplete="off"
+											required
+										/>
+									</div>
+									<div className="label-wrapper-inner">
+										<label htmlFor="phone">Phone Number</label>
+										<input
+											type="tel"
+											id="phone"
+											name="phone"
+											placeholder=""
+											autoComplete="off"
+										/>
+									</div>
 								</div>
 								<div className="label-wrapper-inner-full">
 									<label htmlFor="email">Email</label>

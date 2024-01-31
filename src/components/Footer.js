@@ -10,8 +10,8 @@ const Footer = () => {
 				</figure>
 				<div className="inbio-text">
 					<p>© 2024. All rights reserved by
-						<a href="#" aria-describedby="name-description">Faisal Saleem</a>
-						<span id="name-description" className="sr-only">Full name: Faisal Saleem</span>l
+						<a href="#" aria-describedby="name-description">Hamza Haseeb</a>
+						<span id="name-description" className="sr-only">Full name: Hamza Haseeb</span>l
 					</p>
 				</div>
 			</section>

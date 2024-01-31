@@ -123,8 +123,7 @@
 
 @media (max-width: 991px) {
   .my-portfolio {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 80px 15px;
   }
   .my-portfolio span {
     padding: 0px 20px 10px 20px;
@@ -140,8 +139,7 @@
     width: 100%;
   }
   .my-portfolio .cards-wrapper .cards {
-    max-width: -moz-max-content;
-    max-width: max-content;
+    max-width: unset;
     width: 100%;
     height: auto;
     display: inline-block;
