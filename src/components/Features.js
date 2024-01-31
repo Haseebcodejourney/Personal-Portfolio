@@ -1,5 +1,9 @@
 import React from 'react';
-import '../style/features.css'
+import '../style/features.css';
+import developmentPortfolio from '../assets/images/developmentPortfolioImg.webp';
+import applicationPorfolio from '../assets/images/applicationPorfolioImg.webp';
+import photoshopPortfolio from '../assets/images/photoshopPortfolioImg.webp';
+import figmaPortfolio from '../assets/images/figmaPortfolioImg.webp';
 
 const Features = () => {
   return (
@@ -11,7 +15,7 @@ const Features = () => {
         {/* For Design services */}
         <div className="cards" id="openModalBtn">
           <figure>
-              <img data-src="assets/images/development-portfolio-img.webp" alt="Development" width="342" height="256" className="" src="assets/images/development-portfolio-img.webp" />
+              <img data-src="assets/images/development-portfolio-img.webp" alt="Development" width="342" height="256" className="" src={developmentPortfolio} />
           </figure>
           <div className="detail-wrapper">
             <div className="detail">
@@ -33,7 +37,7 @@ const Features = () => {
          {/* For Application services */}
         <div className="cards">
           <figure>
-              <img data-src="assets/images/Application-porfolio-img.webp" alt="Development" width="342" height="256" className="" src="assets/images/Application-porfolio-img.webp" />
+              <img data-src="assets/images/Application-porfolio-img.webp" alt="Development" width="342" height="256" className="" src={applicationPorfolio} />
           </figure>
           <div className="detail-wrapper">
             <div className="detail">
@@ -57,7 +61,7 @@ const Features = () => {
          {/* For PhotoShop services */}
         <div className="cards">
           <figure>
-              <img data-src="assets/images/photoshop-portfolio-img.webp" alt="Development" width="342" height="256" className="" src="assets/images/photoshop-portfolio-img.webp" />
+              <img data-src="assets/images/photoshop-portfolio-img.webp" alt="Development" width="342" height="256" className="" src={photoshopPortfolio} />
           </figure>
           <div className="detail-wrapper">
             <div className="detail">
@@ -81,7 +85,7 @@ const Features = () => {
          {/* For Figma services */}
         <div className="cards">
           <figure>
-              <img data-src="assets/images/Figma-portfolio-img.webp" alt="Development" width="342" height="256" className="" src="assets/images/Figma-portfolio-img.webp" />
+              <img data-src="assets/images/Figma-portfolio-img.webp" alt="Development" width="342" height="256" className="" src={photoshopPortfolio} />
           </figure>
           <div className="detail-wrapper">
             <div className="detail">
@@ -106,7 +110,7 @@ const Features = () => {
          {/* For Web-Design  */}
         <div className="cards">
           <figure>
-              <img data-src="assets/images/webdesign-portfolio-img.webp" alt="Development" width="342" height="256" className="" src="assets/images/webdesign-portfolio-img.webp" />
+              <img data-src="assets/images/webdesign-portfolio-img.webp" alt="Development" width="342" height="256" className="" src={developmentPortfolio} />
           </figure>
           <div className="detail-wrapper">
             <div className="detail">
@@ -130,7 +134,7 @@ const Features = () => {
          {/* For Technology */}
         <div className="cards">
           <figure>
-              <img data-src="assets/images/webdesign-portfolio-img2.webp" alt="Development" width="342" height="256" className="" src="assets/images/webdesign-portfolio-img2.webp" />
+              <img data-src="assets/images/webdesign-portfolio-img2.webp" alt="Development" width="342" height="256" className="" src={photoshopPortfolio} />
 
           </figure>
           <div className="detail-wrapper">

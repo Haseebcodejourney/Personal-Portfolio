@@ -1,5 +1,6 @@
 import React from 'react';
-import '../style/contact.css'
+import '../style/contact.css';
+import contactUsImg from '../assets/images/contactUsImg.webp'
 
 const Contact = () => {
 	return (
@@ -11,7 +12,7 @@ const Contact = () => {
 					<div className="left">
 						<figure>
 							<img
-								src="assets/images/contact-us-img.webp"
+								src={contactUsImg}
 								alt="Contact Us"
 								width="466"
 								height="292"

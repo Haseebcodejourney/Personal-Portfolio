@@ -5,11 +5,16 @@
 .main-section .main-section-inner {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
 }
 .main-section .main-section-inner .intro-section {
   padding-left: 30px;
   padding-right: 30px;
+  max-width: 770px;
+  width: 100%;
 }
 .main-section .main-section-inner .intro-section .content {
   padding-top: 70px;
@@ -19,6 +24,8 @@
 .main-section .main-section-inner .intro-image {
   padding-left: 30px;
   padding-right: 30px;
+  max-width: 550px;
+  width: 100%;
 }
 .main-section .content .inner {
   margin-bottom: 142px;

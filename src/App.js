@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import styled from 'styled-components';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Features from './components/Features';

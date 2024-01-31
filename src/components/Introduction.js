@@ -1,5 +1,7 @@
 import React from 'react';
-import '../style/introduction.css'
+import '../style/introduction.css';
+import mainImage from '../assets/images/mainImg.webp';
+import linkedIn from '../assets/images/linkedIn.webp'
 
 const Introduction = () => {
   return (
@@ -53,19 +55,19 @@ const Introduction = () => {
                       <ul>
                         <li>
                           <figure>
-                            <img src="assets/linkedIn.png" alt="logo"
+                            <img src={linkedIn} alt="logo"
                               width="23" height="23" />
                           </figure>
                         </li>
                         <li>
                           <figure>
-                            <img src="assets/twitter.png" alt="" width="23"
+                            <img src={linkedIn} alt="" width="23"
                               height="23" />
                           </figure>
                         </li>
                         <li>
                           <figure>
-                            <img src="assets/figma.png" alt="" width="23"
+                            <img src={linkedIn} width="23"
                               height="23" />
                           </figure>
                         </li>
@@ -79,7 +81,7 @@ const Introduction = () => {
           <div className="intro-image">
             <div className="thumbnail">
               <div className="inner">
-                <img data-src="assets/images/main-img.webp" alt="Developer Image" width="509" className="lazy-load" />
+                <img src={mainImage} alt="Developer Image" width="509" className="lazy-load" />
               </div>
             </div>
           </div>

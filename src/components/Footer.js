@@ -1,12 +1,13 @@
 import React from 'react';
-import '../style/footer.css'
+import '../style/footer.css';
+import saleemLogo from '../assets/images/saleemLogo.svg'
 
 const Footer = () => {
 	return (
 		<>
 			<section className="container inbio-wrapper">
 				<figure>
-					<img data-src="assets/images/Saleem Logo.svg" alt="Footer Logo" width="78" height="35" className="" src="assets/images/Saleem Logo.svg" />
+					<img data-src="assets/images/Saleem Logo.svg" alt="Footer Logo" width="78" height="35" className="" src={saleemLogo} />
 				</figure>
 				<div className="inbio-text">
 					<p>© 2024. All rights reserved by

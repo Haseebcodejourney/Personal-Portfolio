@@ -6,11 +6,16 @@
     .main-section-inner {
       display: flex;
       align-items: flex-start;
-      justify-content: center;
+      justify-content: space-between;
+      max-width: 1320px;
+      width: 100%;
+      margin: 0 auto;
   
       .intro-section {
         padding-left: 30px;
         padding-right: 30px;
+        max-width: 770px;
+        width: 100%;
   
         .content {
           padding-top: 70px;
@@ -22,6 +27,8 @@
       .intro-image {
         padding-left: 30px;
         padding-right: 30px;
+        max-width: 550px;
+        width: 100%;
       }
     }
   
