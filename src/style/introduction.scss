@@ -190,19 +190,22 @@
     }
   
     ul {
-      margin: -10px -12px;
+      margin: 0px;
       flex-wrap: wrap;
       padding: 0;
       list-style: none;
       display: flex;
       align-items: center;
+      gap: 24px;
   
       li {
-        margin: 10px 12px;
+        margin: 0px;
         font-size: 18px;
         line-height: normal;
         color: #878e99;
         transition: 0.4s;
+        width: 60px;
+        height: 60px;
   
         &:hover {
           transform: translateY(-3px);
@@ -220,6 +223,8 @@
           text-transform: uppercase;
           border-radius: 6px;
           position: relative;
+          width: 60px;
+          height: 60px;
   
           &::before {
             background: linear-gradient(145deg, #ff014f, #d11414);
@@ -273,15 +278,16 @@
     }
   
     ul {
-      margin: -10px -12px;
+      margin: 0px;
       flex-wrap: wrap;
       padding: 0;
       list-style: none;
       display: flex;
       align-items: center;
+      gap: 24px;
   
       li {
-        margin: 10px 12px;
+        margin: 0px;
         font-size: 18px;
         line-height: normal;
         color: #878e99;
@@ -330,5 +336,22 @@
           }
         }
       }
+    }
+  }
+
+
+
+
+
+  //For Social Links
+  .social-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .contact-links{
+
+    }
+    .skills-links{
+
     }
   }

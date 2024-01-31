@@ -157,19 +157,22 @@
   letter-spacing: 2px;
 }
 .social-share-inner-left ul {
-  margin: -10px -12px;
+  margin: 0px;
   flex-wrap: wrap;
   padding: 0;
   list-style: none;
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 .social-share-inner-left ul li {
-  margin: 10px 12px;
+  margin: 0px;
   font-size: 18px;
   line-height: normal;
   color: #878e99;
   transition: 0.4s;
+  width: 60px;
+  height: 60px;
 }
 .social-share-inner-left ul li:hover {
   transform: translateY(-3px);
@@ -186,6 +189,8 @@
   text-transform: uppercase;
   border-radius: 6px;
   position: relative;
+  width: 60px;
+  height: 60px;
 }
 .social-share-inner-left ul li a::before {
   background: linear-gradient(145deg, #ff014f, #d11414);
@@ -228,15 +233,16 @@
   letter-spacing: 2px;
 }
 .social-share-inner-right ul {
-  margin: -10px -12px;
+  margin: 0px;
   flex-wrap: wrap;
   padding: 0;
   list-style: none;
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 .social-share-inner-right ul li {
-  margin: 10px 12px;
+  margin: 0px;
   font-size: 18px;
   line-height: normal;
   color: #878e99;
@@ -279,4 +285,10 @@
 }
 .social-share-inner-right ul li:hover svg {
   color: #ffffff;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=introduction.css.map */

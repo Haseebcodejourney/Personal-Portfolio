@@ -19,8 +19,8 @@ const Introduction = () => {
                     motion
                     just to spruce things up, but doing it in ways that.</p>
                 </div>
-                <div className="row">
-                  <div className="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
+                <div className="social-links">
+                  <div className="contact-links">
                     <div className="social-share-inner-left">
                       <span>find with me</span>
                       <ul>
@@ -47,7 +47,7 @@ const Introduction = () => {
                     </div>
 
                   </div>
-                  <div className="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
+                  <div className="skills-links">
                     <div className="social-share-inner-right">
                       <span>best skill on</span>
                       <ul>

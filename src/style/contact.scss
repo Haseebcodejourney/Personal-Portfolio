@@ -299,6 +299,7 @@
             text-decoration: none;
             -webkit-appearance: button;
             width: 100%;
+            cursor: pointer;
             &::before{
               background: linear-gradient(145deg, #ff014f, #d11414);
               content: "";

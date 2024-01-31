@@ -295,6 +295,7 @@
   text-decoration: none;
   -webkit-appearance: button;
   width: 100%;
+  cursor: pointer;
 }
 .contact-us-wrapper .inner-container .right form button::before {
   background: linear-gradient(145deg, #ff014f, #d11414);
