@@ -3,6 +3,9 @@
     padding-top: 80px;
     padding-bottom: 80px;
     position: relative;
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
     span{
       letter-spacing: 2px;
       display: block;
@@ -24,7 +27,7 @@
     }
     .inner-container{
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       gap: 30px;
       .left{
         background: linear-gradient(145deg, #e2e8ec, #ffffff);
@@ -149,10 +152,10 @@
       .right{
         background: var(--gradient-box-w);
         box-shadow: var(--shadow-white-3);
-        max-width: 728px;
+        max-width: 770px;
         width: 100%;
         height: 786px;
-        padding: 30px;
+        padding: 0px;
         border-radius: 10px;
         form{
           .label-wrapper{
@@ -222,7 +225,8 @@
                 color: #3c3e41;
                 box-shadow: none;
                 background: #fdfefe;
-                width: 668px;
+                min-width: 668px;
+                width: 100%;
                 border-radius: 6px;
                 height: 55px;
                 transition: 0.4s;
@@ -276,7 +280,10 @@
             font-weight: 500;
             border: 0 none;
             border-radius: 6px;
-            display: inline-block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
             padding: 15px 35px;
             list-style: none;
             text-decoration: none;
@@ -431,7 +438,7 @@
         }
         .right{
           height: auto !important;
-          padding: 20px;
+          padding: 0px;
           form{
             .label-wrapper{
               margin-bottom: 20px;
