@@ -38,7 +38,7 @@
           box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
           max-width: 401px;
           width: 100%;
-          height: 436px;
+          height: 336px;
           border-radius: 10px;
   
           span {
@@ -49,7 +49,7 @@
               width: 50px;
               height: auto;
               color: #f9004d;
-              stroke-width: 1 !important;
+              strokeWidth: 1 !important;
             }
   
             &:last-child {
@@ -97,7 +97,7 @@
             span {
               svg {
                 color: #fff;
-                stroke-width: 1 !important;
+                strokeWidth: 1 !important;
               }
   
               &:last-child {
@@ -175,7 +175,7 @@
                 width: 50px;
                 height: auto;
                 color: #f9004d;
-                stroke-width: 1 !important;
+                strokeWidth: 1 !important;
               }
   
               &:last-child {
@@ -219,7 +219,7 @@
               span {
                 svg {
                   color: #fff;
-                  stroke-width: 1 !important;
+                  strokeWidth: 1 !important;
                 }
   
                 &:last-child {

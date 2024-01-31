@@ -34,7 +34,7 @@
   box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
   max-width: 401px;
   width: 100%;
-  height: 436px;
+  height: 336px;
   border-radius: 10px;
 }
 .what-i-do-section .what-i-do-section-inner .box-wrapper .box span {
@@ -45,7 +45,7 @@
   width: 50px;
   height: auto;
   color: #f9004d;
-  stroke-width: 1 !important;
+  strokeWidth: 1 !important;
 }
 .what-i-do-section .what-i-do-section-inner .box-wrapper .box span:last-child svg:last-child {
   visibility: hidden;
@@ -82,7 +82,7 @@
 }
 .what-i-do-section .what-i-do-section-inner .box-wrapper .box:hover span svg {
   color: #fff;
-  stroke-width: 1 !important;
+  strokeWidth: 1 !important;
 }
 .what-i-do-section .what-i-do-section-inner .box-wrapper .box:hover span:last-child {
   fill: #fff;
@@ -149,7 +149,7 @@
     width: 50px;
     height: auto;
     color: #f9004d;
-    stroke-width: 1 !important;
+    strokeWidth: 1 !important;
   }
   .what-i-do-section .what-i-do-section-inner .box-wrapper .box span:last-child svg {
     display: block;
@@ -184,7 +184,7 @@
   }
   .what-i-do-section .what-i-do-section-inner .box-wrapper .box:hover span svg {
     color: #fff;
-    stroke-width: 1 !important;
+    strokeWidth: 1 !important;
   }
   .what-i-do-section .what-i-do-section-inner .box-wrapper .box:hover span:last-child {
     fill: #fff;

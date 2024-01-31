@@ -67,7 +67,7 @@ const Introduction = () => {
                         </li>
                         <li>
                           <figure>
-                            <img src={linkedIn} width="23"
+                            <img src={linkedIn} alt='linkedIn' width="23"
                               height="23" />
                           </figure>
                         </li>
