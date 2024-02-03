@@ -55,6 +55,7 @@
   display: inline-block;
   padding: 0px;
   text-transform: capitalize;
+  padding-right: 8px;
 }
 .main-section .content .inner h1 span:first-child {
   font-size: 60px;
@@ -115,6 +116,9 @@
     max-width: 1320px;
     width: 100%;
   }
+  .main-section .main-section-inner {
+    flex-direction: column;
+  }
   .main-section .main-section-inner .intro-section {
     padding-left: 15px;
     padding-right: 15px;
@@ -146,6 +150,12 @@
   }
   .main-section .main-section-inner .thumbnail {
     display: none;
+  }
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start !important;
   }
 }
 @media (max-width: 1280px) {

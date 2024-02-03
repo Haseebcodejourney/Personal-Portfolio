@@ -1,19 +1,22 @@
-import React from 'react';
+import React,{useEffect, useState} from 'react';
 import '../style/introduction.css';
 import mainImage from '../assets/images/mainImg.webp';
 import linkedIn from '../assets/images/linkedIn.webp'
 
 const Introduction = () => {
+
   return (
     <>
       <section className="container main-section" id="main-section">
+
         <div className="main-section-inner">
           <div className="intro-section">
             <div className="content">
               <div className="inner">
                 <span className="subtitle">Welcome to my world</span>
-                <h1 className="title">Hi, I’m <span>Jone Lee</span>a
-                  <span id="auto-typing-text"></span>
+                <h1>
+                Hi, I’m <span> Jone Lee </span> 
+                a Developer.
                 </h1>
                 <div className="description">
                   <p>I use animation as a third dimension by which to simplify
