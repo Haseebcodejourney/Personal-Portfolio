@@ -17,7 +17,8 @@ const Navbar = () => {
         </figure>
       </div>
       <div className="menu-icon" onClick={toggleMenu}>
-        <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'}`}></i>
+        {/* <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'}`}></i> */}
+        toggle
       </div>
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
         <li><a href="/">Home</a></li>

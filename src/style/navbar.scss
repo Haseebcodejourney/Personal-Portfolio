@@ -8,6 +8,7 @@
     color: #3c3e41;
     margin-bottom: 52px;
     height: 100px;
+    transition: background-color 0.4s;
   }
   
   .logo {
@@ -24,6 +25,7 @@
     list-style: none;
     display: flex;
     gap: 1rem;
+    transition: transform 0.4s, opacity 0.4s;
   }
   
   .nav-links li {
@@ -37,6 +39,7 @@
     text-transform: uppercase;
     font-weight: 600;
     margin: 10px 14px;
+    transition: color 0.4s;
   }
   
   /* Responsive Styles */
@@ -44,26 +47,43 @@
     .menu-icon {
       display: block;
     }
-  
+    .navbar{
+        background-color: #3c3e41; 
+    }
     .nav-links {
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       position: absolute;
       top: 45px;
       left: 0;
       width: 100%;
-      background-color: #333;
+      background-color: #3c3e41;
       text-align: center;
       display: none;
+      top: 85px;
+      padding-left: 0px;
+      transform: translateY(-20px);
+      opacity: 0;
+      transition: transform 0.4s, opacity 0.4s;
+
     }
   
     .nav-links.open {
       display: flex;
       z-index: 99;
+      background: #3c3e41;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      transform: translateY(0);
+      opacity: 1;
     }
   
     .nav-links li {
       margin: 10px 0;
     }
+    .nav-links li a{
+        color: #fff;
+        transition: color 0.4s;
+      }
   }
   
