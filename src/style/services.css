@@ -66,6 +66,10 @@
   width: 100%;
   height: 40px;
 }
+.what-i-do-section .what-i-do-section-inner .box-wrapper .box span .view-more-btn:hover {
+  color: rgb(228, 211, 255);
+  border-color: rgb(147, 80, 255);
+}
 .what-i-do-section .what-i-do-section-inner .box-wrapper .box span:last-child svg:last-child {
   visibility: hidden;
   width: 18px;

@@ -26,11 +26,6 @@ const Features = () => {
               </span>
             </div>
             <strong>The services provide for design
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M7 7h10v10"></path>
-                </svg>
-              </span>
             </strong>
           </div>
         </div>
@@ -50,11 +45,6 @@ const Features = () => {
               </span>
             </div>
             <strong>Mobile app landing design &amp; app
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M7 7h10v10"></path>
-                </svg>
-              </span>
             </strong>
           </div>
         </div>
@@ -74,11 +64,6 @@ const Features = () => {
               </span>
             </div>
             <strong>Logo design creativity &amp; Application
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M7 7h10v10"></path>
-                </svg>
-              </span>
             </strong>
           </div>
         </div>
@@ -99,11 +84,6 @@ const Features = () => {
             </div>
             <strong>Mobile app landing design &amp;
               Services
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M7 7h10v10"></path>
-                </svg>
-              </span>
             </strong>
           </div>
         </div>
@@ -123,11 +103,6 @@ const Features = () => {
               </span>
             </div>
             <strong>Design for tecnology &amp; services
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M7 7h10v10"></path>
-                </svg>
-              </span>
             </strong>
           </div>
         </div>
@@ -148,11 +123,6 @@ const Features = () => {
               </span>
             </div>
             <strong>App for tecnology &amp; services
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M7 7h10v10"></path>
-                </svg>
-              </span>
             </strong>
           </div>
         </div>
