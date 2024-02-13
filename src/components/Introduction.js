@@ -2,16 +2,19 @@ import React, { useEffect, useState } from 'react';
 import '../style/introduction.css';
 import mainImage from '../assets/images/mainImg.webp';
 import linkedIn from '../assets/images/linkedIn.webp'
+import ParticlesComponent from './ParticlesComponent';
 
 const Introduction = () => {
 
   return (
     <>
-      <section className="container main-section" id="main-section">
 
+      <section className="container main-section" id="main-section">
+   
         <div className="main-section-inner">
           <div className="intro-section">
             <div className="content">
+              
               <div className="inner">
                 <span className="subtitle">Welcome to my world</span>
                 <h1>
@@ -19,6 +22,7 @@ const Introduction = () => {
                   a Developer.
                 </h1>
                 <div className="description">
+                <ParticlesComponent />
                   <p>I use animation as a third dimension by which to simplify
                     experiences and kuiding thro each and every interaction. I’m not adding
                     motion
