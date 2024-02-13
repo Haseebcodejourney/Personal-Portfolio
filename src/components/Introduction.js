@@ -24,7 +24,7 @@ const Introduction = () => {
                     motion
                     just to spruce things up, but doing it in ways that.</p>
                 </div>
-                <div className="social-links">
+                {/* <div className="social-links">
                   <div className="contact-links">
                     <div className="social-share-inner-left">
                       <span>find with me</span>
@@ -77,17 +77,17 @@ const Introduction = () => {
                       </ul>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
-          <div className="intro-image">
+          {/* <div className="intro-image">
             <div className="thumbnail">
               <div className="inner">
                 <img src={mainImage} alt="Developer Image" width="509" className="lazy-load" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

@@ -22,9 +22,7 @@ const Services = () => {
               <p>I throw myself down among the tall grass by the stream as I
                 lie close to the earth.</p>
               <span>
-                <svg xmlns="http://www.w3.org/2000/svg"      viewBox="0 0 32 32">
-                      <path d="M32 15H3.41l8.29-8.29-1.41-1.42-10 10a1 1 0 0 0 0 1.41l10 10 1.41-1.41L3.41 17H32z" data-name="4-Arrow Left"></path>
-                </svg>
+                <a className='view-more-btn' href='#'>View more</a>
               </span>
             </div>
             {/* For App Development */}
@@ -39,9 +37,7 @@ const Services = () => {
               <p>I throw myself down among the tall grass by the stream as I
                 lie close to the earth.</p>
               <span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                      <path d="M32 15H3.41l8.29-8.29-1.41-1.42-10 10a1 1 0 0 0 0 1.41l10 10 1.41-1.41L3.41 17H32z" data-name="4-Arrow Left"></path>
-                </svg>
+                <a className='view-more-btn' href='#'>View more</a>
               </span>
             </div>
             {/* <For Game Development */}
@@ -56,9 +52,7 @@ const Services = () => {
               <p>I throw myself down among the tall grass by the stream as I
                 lie close to the earth.</p>
               <span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                      <path d="M32 15H3.41l8.29-8.29-1.41-1.42-10 10a1 1 0 0 0 0 1.41l10 10 1.41-1.41L3.41 17H32z" data-name="4-Arrow Left"></path>
-                  </svg>
+                <a className='view-more-btn' href='#'>View more</a>
               </span>
             </div>
             {/* For Mobile App */}
@@ -72,9 +66,7 @@ const Services = () => {
               <p>I throw myself down among the tall grass by the stream as I
                 lie close to the earth.</p>
               <span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                      <path d="M32 15H3.41l8.29-8.29-1.41-1.42-10 10a1 1 0 0 0 0 1.41l10 10 1.41-1.41L3.41 17H32z" data-name="4-Arrow Left"></path>
-                    </svg>
+                <a className='view-more-btn' href='#'>View more</a>
               </span>
             </div>
              {/* For CEO Marketing */}
@@ -91,9 +83,7 @@ const Services = () => {
               <p>I throw myself down among the tall grass by the stream as I
                 lie close to the earth.</p>
               <span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                      <path d="M32 15H3.41l8.29-8.29-1.41-1.42-10 10a1 1 0 0 0 0 1.41l10 10 1.41-1.41L3.41 17H32z" data-name="4-Arrow Left"></path>
-                    </svg>
+                <a className='view-more-btn' href='#'>View more</a>
               </span>
             </div>
              {/* For Personal Portfolio */}
