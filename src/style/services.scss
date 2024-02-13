@@ -8,7 +8,7 @@
   
     .what-i-do-section-inner {
       span {
-        color: #f9004d;
+        color: #8671da;
         letter-spacing: 2px;
         display: block;
         line-height: 14px;
@@ -21,7 +21,7 @@
         font-size: 60px;
         font-weight: 700;
         line-height: 1.2;
-        color: #3c3e41;
+        color: #fff;
         padding-bottom: 50px;
       }
   
@@ -34,8 +34,10 @@
   
         .box {
           padding: 35px 50px 35px 50px;
-          background: linear-gradient(145deg, #e2e8ec, #ffffff);
-          box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+          // background: linear-gradient(145deg, #e2e8ec, #ffffff);
+          // box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+          box-shadow: unset;
+          background: rgb(24, 24, 27);
           max-width: 401px;
           width: 100%;
           height: 336px;
@@ -44,13 +46,39 @@
           span {
             padding: 0px;
             margin-bottom: 29px;
-  
-            svg {
-              width: 50px;
-              height: auto;
-              color: #f9004d;
-              strokeWidth: 1 !important;
+            .view-more-btn{
+              color: rgb(248, 248, 248);
+              border: none;
+              cursor: pointer;
+              margin: 0;
+              display: inline-flex;
+              outline: none;
+              padding: 0.7em 0.8em;
+              position: relative;
+              font-size: 14px;
+              background: rgba(240, 240, 240, 0);
+              box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0);
+              box-sizing: border-box;
+              transition: all 0.2s ease-in-out;
+              align-items: center;
+              border-color: rgba(227, 227, 227, 0.18);
+              border-style: solid;
+              border-width: 1px;
+              border-radius: 8px;
+              justify-content: center;
+              text-decoration: none;
+              max-width: 96px;
+              width: 100%;
+              height: 40px;
             }
+
+  
+            // svg {
+            //   width: 50px;
+            //   height: auto;
+            //   color: #8671da;
+            //   stroke-width: 1 !important;
+            // }
   
             &:last-child {
               svg {
@@ -65,7 +93,7 @@
           }
   
           h3 {
-            font-family: #f9004d;
+          color: #fff;
             font-weight: 500;
             font-size: 24px;
             line-height: 32px;
@@ -75,47 +103,51 @@
           p {
             font-size: 16px;
             line-height: 28px;
-            color: #3c3e41;
-            margin-bottom: 22px;
+            color: rgb(200, 200, 200);
+            margin-bottom: 30px;
             transition: 0.4s;
+            display: -webkit-box;
+            -webkit-line-clamp: 3; /* Limit to 4 lines */
+            -webkit-box-orient: vertical;
+            overflow: hidden;
           }
   
-          &:hover {
-            text-decoration: none;
-            outline: none;
-            color: #f9004d;
-          }
+          // &:hover {
+          //   text-decoration: none;
+          //   outline: none;
+          //   color: #8671da;
+          // }
   
-          &:hover {
-            cursor: pointer;
-            background: linear-gradient(145deg, #ff014f, #d11414);
-            opacity: 1;
-            box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-            transition: 0.5s all ease-in-out;
-            transition: 0.4s;
+          // &:hover {
+          //   cursor: pointer;
+          //   background: linear-gradient(145deg, #8671da, #8671da);
+          //   opacity: 1;
+          //   box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+          //   transition: 0.5s all ease-in-out;
+          //   transition: 0.4s;
   
-            span {
-              svg {
-                color: #fff;
-                strokeWidth: 1 !important;
-              }
+          //   span {
+          //     svg {
+          //       color: #fff;
+          //       strokeWidth: 1 !important;
+          //     }
   
-              &:last-child {
-                fill: #fff;
-                svg{
-                  visibility: visible;
-                }
-              }
-            }
+          //     &:last-child {
+          //       fill: #fff;
+          //       svg{
+          //         visibility: visible;
+          //       }
+          //     }
+          //   }
   
-            h3 {
-              color: #ffffff;
-            }
+          //   h3 {
+          //     color: #ffffff;
+          //   }
   
-            p {
-              color: #ffffff;
-            }
-          }
+          //   p {
+          //     color: #ffffff;
+          //   }
+          // }
         }
       }
   
@@ -142,7 +174,7 @@
       width: 100%;
       .what-i-do-section-inner {
         span {
-          color: #f9004d;
+          color: #8671da;
           line-height: 14px;
           padding-bottom: 10px;
           text-align: center;
@@ -174,7 +206,7 @@
               svg {
                 width: 50px;
                 height: auto;
-                color: #f9004d;
+                color: #8671da;
                 strokeWidth: 1 !important;
               }
   
@@ -205,12 +237,12 @@
             &:hover {
               text-decoration: none;
               outline: none;
-              color: #f9004d;
+              color: #8671da;
             }
   
             &:hover {
               cursor: pointer;
-              background: linear-gradient(145deg, #ff014f, #d11414);
+              background: linear-gradient(145deg, #8671da, #8671da);
               opacity: 1;
               box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
               transition: 0.5s all ease-in-out;

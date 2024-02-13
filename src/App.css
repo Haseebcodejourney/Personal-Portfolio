@@ -3,7 +3,7 @@ figure {
 }
 
 body {
-  background-color: #ECF0F3;
+  background-color: #090b0e;
   color: var(--primary-color);
   font-family: "Poppins", sans-serif;
   height: auto ;
@@ -11,8 +11,8 @@ body {
 }
 
 :root {
-  --primary-color: #3c3e41;
-  --secondary-color: #ff014f;
+  --primary-color: rgb(200, 200, 200)c3e41;
+  --secondary-color: #8671da;
   --gradient-box-w : linear-gradient(145deg, #e2e8ec, #ffffff) ;
   --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
 }

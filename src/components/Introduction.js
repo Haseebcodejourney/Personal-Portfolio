@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import '../style/introduction.css';
 import mainImage from '../assets/images/mainImg.webp';
 import linkedIn from '../assets/images/linkedIn.webp'
@@ -15,8 +15,8 @@ const Introduction = () => {
               <div className="inner">
                 <span className="subtitle">Welcome to my world</span>
                 <h1>
-                Hi, I’m <span> Jone Lee </span> 
-                a Developer.
+                  Hi, I’m <span> Jone Lee </span>
+                  a Developer.
                 </h1>
                 <div className="description">
                   <p>I use animation as a third dimension by which to simplify

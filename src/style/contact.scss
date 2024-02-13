@@ -77,7 +77,7 @@
               transition: 0.4s;
               color: #3c3e41;
               &:hover{
-                color: #f9004d;
+                color: #8671da;
                 &::before{
                   width: 100%;
                 }
@@ -86,7 +86,7 @@
                 content: "";
                 position: absolute;
                 width: 0%;
-                background-color: #f9004d;
+                background-color: #8671da;
                 height: 1px;
                 left: 0;
                 bottom: 2px;
@@ -121,7 +121,7 @@
                 color: #3c3e41;
                 transition: 0.4s;
                 &::before{
-                  background: linear-gradient(145deg, #ff014f, #d11414);
+                  background: linear-gradient(145deg, #8671da, #8671da);
                   content: "";
                   position: absolute;
                   transition: var(--transition);
@@ -203,7 +203,7 @@
                   font-weight: 400;
                   line-height: 28px;
                   &:focus {
-                    border: 2px solid #f9004d;
+                    border: 2px solid #8671da;
                     outline: none;
                   }
                   &:focus-visible{
@@ -247,7 +247,7 @@
                 line-height: 28px;
                 height: 55px;
                 &:focus {
-                  border: 2px solid #f9004d;
+                  border: 2px solid #8671da;
                   outline: none;
                 }
                 &:focus-visible{
@@ -273,7 +273,7 @@
                 width: 100%;
                 transition: 0.4s;
                 &:focus {
-                  border: 2px solid #f9004d;
+                  border: 2px solid #8671da;
                   outline: none;
                 }
               }
@@ -282,7 +282,7 @@
           button{
             background: linear-gradient(145deg, #e2e8ec, #ffffff);
             box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-            color: #ff014f;
+            color: #8671da;
             transition: 0.4s;
             position: relative;
             z-index: 2;
@@ -301,7 +301,7 @@
             width: 100%;
             cursor: pointer;
             &::before{
-              background: linear-gradient(145deg, #ff014f, #d11414);
+              background: linear-gradient(145deg, #8671da, #8671da);
               content: "";
               position: absolute;
               transition: 0.4s;
@@ -312,13 +312,13 @@
               left: 0;
               opacity: 0;
               z-index: -1;
-              color: #f9004d;
+              color: #8671da;
             }
             &:hover{
               opacity: 1;
               z-index: 1;
               transform: translateY(-5px);
-              background: linear-gradient(145deg, #ff014f, #d11414);
+              background: linear-gradient(145deg, #8671da, #8671da);
               color: #fff;
             }
           }
@@ -382,7 +382,7 @@
                 transition: 0.4s;
                 color: #3c3e41;
                 &:hover{
-                  color: #f9004d;
+                  color: #8671da;
                   &::before{
                     width: 100%;
                   }
@@ -391,7 +391,7 @@
                   content: "";
                   position: absolute;
                   width: 0%;
-                  background-color: #f9004d;
+                  background-color: #8671da;
                   height: 1px;
                   left: 0;
                   bottom: 2px;
@@ -421,7 +421,7 @@
                   color: #3c3e41;
                   transition: 0.4s;
                   &::before{
-                    background: linear-gradient(145deg, #ff014f, #d11414);
+                    background: linear-gradient(145deg, #8671da, #8671da);
                     content: "";
                     position: absolute;
                     transition: var(--transition);

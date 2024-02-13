@@ -1,6 +1,7 @@
 // Navbar.js
 import React, { useState } from 'react';
 import '../style/navbar.css'
+import Translation from '../Translation';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,7 @@ const Navbar = () => {
         <li><a href="/clients">Clients</a></li>
         <li><a href="/Blog">Blog</a></li>
         <li><a href="/contact">Contact</a></li>
+        {/* <li><Translation/></li> */}
       </ul>
     </nav>
   );
