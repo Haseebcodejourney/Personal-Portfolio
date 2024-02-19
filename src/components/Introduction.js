@@ -10,11 +10,10 @@ const Introduction = () => {
     <>
 
       <section className="container main-section" id="main-section">
-   
+      <ParticlesComponent />
         <div className="main-section-inner">
           <div className="intro-section">
             <div className="content">
-              
               <div className="inner">
                 <span className="subtitle">Welcome to my world</span>
                 <h1>
@@ -22,7 +21,6 @@ const Introduction = () => {
                   a Developer.
                 </h1>
                 <div className="description">
-                <ParticlesComponent />
                   <p>I use animation as a third dimension by which to simplify
                     experiences and kuiding thro each and every interaction. I’m not adding
                     motion

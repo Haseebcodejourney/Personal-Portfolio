@@ -20,6 +20,9 @@
   cursor: pointer;
   display: none;
 }
+.menu-icon svg {
+  fill: #fff;
+}
 
 .nav-links {
   list-style: none;

@@ -355,7 +355,7 @@
     display: block;
     text-decoration: none;
     transition: 0.4s;
-    color: #3c3e41;
+    color: rgb(200, 200, 200);
   }
   .contact-us-wrapper .inner-container .left p:nth-of-type(3) a:hover {
     color: #8671da;
@@ -384,8 +384,6 @@
     padding: 0px;
   }
   .contact-us-wrapper .inner-container .left .icons-wrapper .icons-wrapper-inner span a {
-    background: var(--gradient-box-w);
-    box-shadow: var(--shadow-white-3);
     width: 61px;
     height: 61px;
     display: flex;

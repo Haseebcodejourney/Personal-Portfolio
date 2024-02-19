@@ -12,6 +12,7 @@
   line-height: 14px;
   font-weight: 500;
   padding-bottom: 15px;
+  text-align: center;
 }
 .what-i-do-section .what-i-do-section-inner h2 {
   margin: 0px;
@@ -20,6 +21,7 @@
   line-height: 1.2;
   color: #fff;
   padding-bottom: 50px;
+  text-align: center;
 }
 .what-i-do-section .what-i-do-section-inner .box-wrapper {
   display: flex;
@@ -142,7 +144,7 @@
   .what-i-do-section .what-i-do-section-inner h2 {
     margin: 0px;
     font-size: 34px;
-    color: #3c3e41;
+    color: #fff;
     padding-bottom: 40px;
     text-align: center;
   }
@@ -151,8 +153,7 @@
   }
   .what-i-do-section .what-i-do-section-inner .box-wrapper .box {
     padding: 25px 20px 20px 20px !important;
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    background: rgb(24, 24, 27);
     height: auto;
     width: 100%;
     max-width: -moz-fit-content;
@@ -184,7 +185,7 @@
   }
   .what-i-do-section .what-i-do-section-inner .box-wrapper .box p {
     font-size: 16px;
-    color: #3c3e41;
+    color: rgb(200, 200, 200);
     margin-bottom: 22px;
   }
   .what-i-do-section .what-i-do-section-inner .box-wrapper .box:hover {
@@ -194,9 +195,7 @@
   }
   .what-i-do-section .what-i-do-section-inner .box-wrapper .box:hover {
     cursor: pointer;
-    background: linear-gradient(145deg, #8671da, #8671da);
     opacity: 1;
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
     transition: 0.5s all ease-in-out;
     transition: 0.4s;
   }

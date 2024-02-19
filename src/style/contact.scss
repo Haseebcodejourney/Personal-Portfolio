@@ -392,7 +392,7 @@
                 display: block;
                 text-decoration: none;
                 transition: 0.4s;
-                color: #3c3e41;
+                color: rgb(200, 200, 200);
                 &:hover{
                   color: #8671da;
                   &::before{
@@ -422,8 +422,8 @@
               span{
                 padding: 0px;
                 a{
-                  background: var(--gradient-box-w);
-                  box-shadow: var(--shadow-white-3);
+                  // background: var(--gradient-box-w);
+                  // box-shadow: var(--shadow-white-3);
                   width: 61px;
                   height: 61px;
                   display: flex;

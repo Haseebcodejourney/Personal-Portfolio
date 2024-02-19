@@ -19,6 +19,9 @@
   .menu-icon {
     cursor: pointer;
     display: none;
+    svg{
+      fill: #fff;
+    }
   }
   
   .nav-links {
